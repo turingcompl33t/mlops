@@ -40,6 +40,7 @@ Candidates:
 
 Persistent storage for MLOps metadata.
 
+Candidates:
 - [PostgreSQL](https://www.postgresql.org/)
 - [MySQL](https://www.mysql.com/)
 
