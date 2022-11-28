@@ -10,6 +10,7 @@ This section describes the tools and technologies of interest.
 
 A means by which to manage both long-running services and ephemeral tasks implemented via Docker containers.
 
+Candidates:
 - [Docker Compose](https://docs.docker.com/compose/)
 - [Vanilla Upstream K8s](https://kubernetes.io/)
 - [Rancher RKE](https://rancher.com/docs/rke/latest/en/)
@@ -19,6 +20,7 @@ A means by which to manage both long-running services and ephemeral tasks implem
 
 A means by which to programmatically (e.g. HTTP) start new services and tasks implemented via Docker containers.
 
+Candidates:
 - ???
 
 **Object Storage**
@@ -28,6 +30,7 @@ Data storage for image data.
 Requirements:
 - Scalable, distributed object storage.
 
+Candidates:
 - [SeaweedFS](https://github.com/seaweedfs/seaweedfs)
 - [Ceph](https://ceph.io/en/)
 - [MinIO](https://min.io/)
@@ -44,6 +47,7 @@ Persistent storage for MLOps metadata.
 
 Coordination mechanism among services that comprise the MLOps pipeline.
 
+Candidates:
 - [Kafka](https://kafka.apache.org/) (with manually-configured topics for service coordination)
 - [RabbitMQ](https://www.rabbitmq.com/) (as a generic message broker)
 - [Airflow](https://airflow.apache.org/) (with [`KubernetesPodOperator`](https://airflow.apache.org/docs/apache-airflow-providers-cncf-kubernetes/stable/operators.html))
@@ -52,6 +56,7 @@ Coordination mechanism among services that comprise the MLOps pipeline.
 
 Labeling tool for images.
 
+Candidates:
 - [CVAT](https://cvat.org/)
 - [Label Studio](https://labelstud.io/)
 
@@ -59,10 +64,12 @@ Labeling tool for images.
 
 Manually / automatically select relevant segments of an "image stream" to cut down the total volume of stored data and focus efforts on relevant data only.
 
+Candidates:
 - ???
 
 **Ephemeral Task Management**
 
 Receive requests for ephemeral tasks and subsequently launch them on the compute substrate.
 
+Candidates:
 - [Celery](https://docs.celeryq.dev/en/stable/getting-started/introduction.html)
