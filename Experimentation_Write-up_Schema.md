@@ -41,6 +41,10 @@ Check-in all commands / code used to provision and manage the technology of inte
     - Is it difficult to use?
     - Is integration difficult?
 
+### Concerns
+
+What general concerns exist with respect to how ATR intends to use the application?
+
 ### Recommendation
 
 User recommendation on the tool for potential NLOps integration. Add any additional notes or caveats here. 
