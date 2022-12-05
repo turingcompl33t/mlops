@@ -47,4 +47,4 @@ What general concerns exist with respect to how ATR intends to use the applicati
 
 ### Recommendation
 
-User recommendation on the tool for potential NLOps integration. Add any additional notes or caveats here. 
+User recommendation on the tool for potential MLOps integration. Add any additional notes or caveats here. 

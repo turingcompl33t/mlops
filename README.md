@@ -12,6 +12,7 @@ A means by which to manage both long-running services and ephemeral tasks implem
 
 Candidates:
 - [Docker Compose](https://docs.docker.com/compose/)
+- [Docker Swarm](https://docs.docker.com/engine/swarm/)
 - [Vanilla Upstream K8s](https://kubernetes.io/)
 - [Rancher RKE](https://rancher.com/docs/rke/latest/en/)
 - [MicroK8s](https://microk8s.io/)
